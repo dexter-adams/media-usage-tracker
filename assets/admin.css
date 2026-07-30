@@ -1,0 +1,59 @@
+.mut-list ul {
+	margin: 0;
+	max-height: 300px;
+	overflow-y: auto;
+	padding: 0;
+}
+
+.mut-item {
+	background: #f6f7f7;
+	border-left: 3px solid #2271b1;
+	border-radius: 4px;
+	list-style: none;
+	margin-bottom: 8px;
+	padding: 10px;
+}
+
+.mut-item.status-draft {
+	border-left-color: #a7aaad;
+}
+
+.mut-item.status-pending {
+	border-left-color: #d63638;
+}
+
+.mut-item.status-private {
+	border-left-color: #dba617;
+}
+
+.mut-item a {
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.mut-item a:hover {
+	text-decoration: underline;
+}
+
+.mut-meta {
+	color: #646970;
+	display: block;
+	font-size: 12px;
+	margin-top: 4px;
+}
+
+.mut-count,
+.mut-none {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	color: #2c3338;
+	font-size: 12px;
+	margin: 12px 0 0;
+	padding: 8px 10px;
+}
+
+.compat-field-media_usage_tracker th.label {
+	padding-top: 12px;
+	vertical-align: top;
+}
